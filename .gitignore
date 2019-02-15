@@ -5,3 +5,4 @@
 .idea*
 .idea/*
 *.DS_Store*
+*.Rproj
