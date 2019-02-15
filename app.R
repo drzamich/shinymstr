@@ -1,8 +1,6 @@
 library(shiny)
 
-# Define server logic for random distribution app ----
-server <- function(input, output) {
-  
+function(input, output, session) {
+  ## To make sure our JS-created textInput works:
+  output$txt2Test <- renderText({ input$txt2 })
 }
-
-shinyApp(ui = htmlTemplate("www/index.html"), server)
