@@ -4,3 +4,4 @@
 .Ruserdata
 .idea*
 .idea/*
+*.DS_Store*
