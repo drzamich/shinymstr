@@ -1,7 +1,9 @@
 # Define server logic for random distribution app ----
 server <- function(input, output) {
-  d <- reactive ({
-    print(100)
-    print(input$n)
+
+  observeEvent(input$loadDataButton, {
+    print(input$authTokenInput)
+    #print(100)
+    #stopApp(returnValue)
   })
 }
