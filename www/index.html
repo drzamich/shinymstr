@@ -18,44 +18,52 @@
         <h1 class="mstr_logo">REST API Connector</h1>
         <form class="form-horizontal" action="#" id="login_form">
             <div class="form-group">
-                <label class="control-label col-sm-2" for="url">Base URL:</label>
+                <label class="control-label col-sm-2" for="url">Base
+                    URL:</label>
                 <div class="col-sm-10">
-                    <input type="url" class="form-control" id="url" placeholder="https://<<MSTR Domain>>/MicroStrategyLibrary/"
-                           value="https://demo.microstrategy.com/MicroStrategyLibrary/api" name="url">
+                    <input type="url" class="form-control" id="url"
+                           placeholder="https://<<MSTR Domain>>/MicroStrategyLibrary/"
+                           value="https://demo.microstrategy.com/MicroStrategyLibrary/api"
+                           name="url">
                 </div>
             </div>
+
+            
             <div class="form-group">
                 <label class="control-label col-sm-2" for="username">Username:</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="username" placeholder="Username"
-                           value="demouser">
+                    <input type="text" class="form-control" id="username"
+                           placeholder="Username" value="demouser">
                 </div>
             </div>
             <div class="form-group">
                 <label class="control-label col-sm-2" for="password">Password:</label>
                 <div class="col-sm-10">
-                    <input type="password" class="form-control" id="password" placeholder="Password"
-                           value="demopass">
+                    <input type="password" class="form-control" id="password"
+                           placeholder="Password" value="demopass">
                 </div>
             </div>
             <div class="form-group">
-                <label class="control-label col-sm-2" for="projectName">Project name:</label>
+                <label class="control-label col-sm-2" for="projectName">Project
+                    name:</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="projectName" placeholder="Project name"
-                           name="projectName" value="MobileDossier">
+                    <input type="text" class="form-control" id="projectName"
+                           placeholder="Project name" name="projectName"
+                           value="MobileDossier">
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-2">
-                    <button type="button" class="btn btn-primary action-button" id="submitButton">Connect</button>
+                    <button type="button" class="btn btn-primary action-button"
+                            id="submitButton">Connect</button>
                 </div>
                 <div class="col-sm-offset-2 col-sm-2">
-                    <button type="button" class="btn btn-primary action-button" id="loadDataButton"
-                            name="loadDataButton">Load
+                    <button type="button" class="btn btn-primary action-button"
+                            id="loadDataButton" name="loadDataButton"
+                            disabled="disabled">Load
                         data</button>
                 </div>
 
-                <input type="text" id="authTokenInput" name="authTokenInput" class="form-control">
             </div>
             <div id="connectionFeedback"></div>
 

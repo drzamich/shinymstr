@@ -2,8 +2,10 @@
 server <- function(input, output) {
 
   observeEvent(input$loadDataButton, {
-    print(input$authTokenInput)
-    #print(100)
-    #stopApp(returnValue)
+    print(input$authToken)
+  })
+  
+  observeEvent(input$testButton, {
+    print(100)
   })
 }
