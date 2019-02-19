@@ -6,6 +6,6 @@ server <- function(input, output) {
   })
   
   observeEvent(input$testButton, {
-    print(100)
+    # print(100) #testing
   })
 }
